@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".frameActivity.DoanhThuFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="0dp"
+            android:background="@drawable/button_button"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTuNgay"
+            android:layout_weight="1"
+            android:text="Từ ngày"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="YYYY/MM/DD"
+            android:id="@+id/edTuNgay"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="20dp">
+        <Button
+            android:background="@drawable/button_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDenNgay"
+            android:layout_weight="1"
+            android:text="Đến ngày"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="YYYY/MM/DD"
+            android:id="@+id/edDenNgay"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#4BAF4F"
+        android:textSize="17dp"
+        android:text="Doanh thu"
+        android:id="@+id/btnDoanhThu"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doanh thu"
+        android:textSize="23dp"
+        android:id="@+id/tvDoanhThu"
+        android:layout_marginTop="20dp"
+        />
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imgbackgroud"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/tien" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DuAnMau</string>
+    <string name="acount_name">Vu Hung</string>
+    <string name="acount_mail">hungvhph22652@fpt.edu.vn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

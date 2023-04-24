@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/quanlysach"
+            android:title="Quản lý sách "
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            />
+        <item android:id="@+id/quanlyloaisach"
+            android:title="Quản lý loại sách"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            />
+        <item android:id="@+id/quanlythanhvien"
+            android:title="Quản lý thành viên"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            />
+        <item android:id="@+id/quanlyphieumuon"
+            android:title="Quản lý phiếu mượn"
+            android:icon="@drawable/ic_baseline_subtitles_24"
+            />
+
+    </group>
+    <item android:title="Thống kê">
+        <menu>
+            <item android:id="@+id/tongke"
+                android:title="Top 10 sách bán chạy"
+                android:icon="@drawable/ic_baseline_stairs_24"
+                />
+            <item android:id="@+id/doanhthu"
+                android:title="Doanh Thu"
+                android:icon="@drawable/ic_baseline_stairs_24"
+                />
+        </menu>
+    </item>
+    <item android:title="Người dùng">
+        <menu>
+            <item android:id="@+id/doimatkhau"
+                android:title="Đổi mật khẩu"
+                android:icon="@drawable/ic_baseline_lock_24"
+                />
+            <item android:id="@+id/dangxuat"
+                android:title="Đăng xuất"
+                android:icon="@drawable/ic_baseline_login_24"
+                />
+            <item android:id="@+id/thoat"
+                android:title="Thoát ứng dụng"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                />
+        </menu>
+    </item>
+</menu>

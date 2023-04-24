@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@drawable/header">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imgbackgroud"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:background="@drawable/soc" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acount_name"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acount_mail"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
